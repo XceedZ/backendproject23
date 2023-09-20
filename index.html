@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" class="font-body overflow-x-hidden scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-Up Page</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Syne&display=swap" rel="stylesheet" />
+    <script src="main.js"></script>
+  </head>
+  
+  <body class="flex items-center justify-center min-h-screen bg-gray-100">
+    <div  class="w-fit bg-custom2 p-20 rounded-l-3xl shadow-" data-tilt>
+      <h2 class="text-2xl font-semibold mb-6 text-custom">Sign up</h2>
+      <h2 class="text-xs font-semibold mb-6 text-custom">If your are member before please sign up yet</h2>
+      <form action="signup.php" method="post">
+        <div class="mb-4 mt-16">
+          <input placeholder="Name" type="text" id="name" name="name" class="w-[45%] px-3 py-5 border-2 border-solid border-custom3 rounded-2xl text-xs text-custom " required />
+        </div>
+        <div class="mb-10 mt-10">
+          <input placeholder="Email" type="email" id="email" name="email" class="w-[45%]  px-3 py-5 rounded-2xl text-xs text-custom border-2 border-solid border-custom3" required />
+        </div>
+        <div class="mb-10">
+          <input placeholder="Password" type="password" id="password" name="password" class="w-[45%]  px-3 py-5 border-2 border-solid border-custom3 rounded-2xl text-xs text-custom" required />
+        </div>
+        <button type="submit" class="bg-custom text-white py-3 px-44 rounded-2xl hover:bg-blue-200 hover:text-custom transition-all">Sign Up</button>
+      </form>
+      <p class="mt-16 absolute text-sm">Have an account in here before? <a href="login.html" class="bg-white text-custom px-10 py-2 border-solid border-2 border-custom rounded-xl ml-14 hover:bg-custom hover:text-white transition-all">Login</a></p>
+      <div class="ml-[35rem] -mt-[34rem] -mr-28 -mb-16">
+        <img class="w-[90%] rounded-2xl" src="Asset/image.jpg" />
+      </div>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
